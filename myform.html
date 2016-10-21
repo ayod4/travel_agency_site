@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Main Page</title>
+	</head>
+	<body>
+		<form method="get" action="bouncer.php">
+		  <table>
+		    <tr> 
+				<td>First Name:</td>
+				<td><input type="text" name="firstname" value="enter name here" /></td>
+			</tr>
+			<tr>
+				<td><label for="female">Female:</label></td>
+				<td><input type="radio" name="gender" id="female" checked="checked" value="f" ></td>
+			</tr>
+			<tr>
+				<td><label for="male">Male:</label></td>
+				<td><input type="radio" name="gender" id="male" value="m" ></td>
+			</tr>
+			<tr>
+				<td><label for="pwd">Age:</label></td>
+				<td><input type="number" name="age" id="age" min="18" max="80" /></td>
+			</tr>
+			<tr>
+				<td><label for="formnum">Hidden:</label></td>
+				<td><input type="hidden" name="formnum" id="formnum" value="form1" /></td>
+			</tr>
+			<tr>
+				<td><label for="dest">Favorite Vacation Destination:</label></td>
+				<td>
+					<select id="dest"name="dest">
+						<option value="HW">Hawaii</option>
+						<option value="SF">SanFran</option>
+						<option value="RD">Red Deer</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="about">Tell us about yourself:</label></td>
+				<td>
+					<textarea name="about" id="about" rows="4" cols="40">
+					  Enter your life history here
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Send" /></td>
+				<td><input type="reset" value="Reset" /></td>
+			</tr>
+		  </table>
+	  </form>
+	</body>
+</html>

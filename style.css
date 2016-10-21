@@ -1,0 +1,33 @@
+h1 {
+   background-color:#35B3AC;
+   font-style:italic;
+}
+
+section, p {
+	font-family: Arial;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+
+footer {
+	font-size: 8pt;
+}
+
+nav {
+	border-bottom-style: dotted;
+	border-color:violet;
+	
+	
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+}
